@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.chiranjivrajput.quizapp.MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Who is the president of India?"
+            android:textSize="24sp"
+            android:paddingTop="8dp"
+            android:paddingLeft="8dp"/>
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Pranab Mukherjee"
+            android:id="@+id/a"
+            android:paddingLeft="16dp"
+            />
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Ram Nath Kovind"
+            android:id="@+id/b"
+            android:paddingLeft="16dp" />
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Pratibha Patil"
+            android:id="@+id/c"
+            android:paddingLeft="16dp" />
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="A.B.J. Abdul kalam"
+            android:paddingLeft="16dp"
+            android:id="@+id/d"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Who is the father of computer?"
+            android:textSize="24sp"
+            android:paddingTop="8dp"
+            android:paddingLeft="8dp"/>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Charles Babbage"
+                android:paddingLeft="16dp"
+                android:id="@+id/a1"/>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Banaje Strostrup"
+                android:paddingLeft="16dp"
+                android:id="@+id/b1"/>
+                    <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Denis Ritchie"
+                android:paddingLeft="16dp"
+                android:id="@+id/c1"/>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Richard Pascal"
+                android:paddingLeft="16dp"
+                android:id="@+id/d1"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. What is the name of first operating System?"
+            android:textSize="24sp"
+            android:paddingTop="8dp"
+            android:paddingLeft="8dp"/>
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="operating system"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="150dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. Tic-Tac-Toe is ........."
+            android:textSize="24sp"
+            android:paddingTop="8dp"
+            android:paddingLeft="8dp"/>
+       <EditText
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="8dp"
+           android:layout_marginRight="150dp"
+           android:hint="game viualization"
+           android:id="@+id/edit1"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5. How many cores that in rizen threadripper processor have?"
+            android:textSize="24sp"
+            android:paddingTop="8dp"
+            android:paddingLeft="8dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <Button
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:text="-"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="8dp"
+                android:onClick="decrease"
+                android:textColor="@android:color/white"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:layout_margin="10dp"
+                android:paddingRight="8dp"
+                android:textSize="20sp"
+                android:text="0"
+                android:id="@+id/cores"/>
+            <Button
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:text="+"
+                android:layout_marginTop="8dp"
+                android:onClick="increase"
+                android:layout_marginRight="16sp"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16sp"
+        android:layout_marginRight="16dp"
+        android:text="Submit Answer"
+        android:onClick="counterr"
+        android:textColor="@android:color/white" />
+    </LinearLayout>
+</ScrollView>
